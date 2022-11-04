@@ -1,0 +1,132 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    padding : 0 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffd90F;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+p {
+    text-align: justify;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header {
+    background-color: #4990c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 7px;
+}
+header img {
+    width: 100%;
+    vertical-align: top;
+}
+header figure {
+    width: 100%;
+}
+main {
+    display: flex ;
+    justify-content: flex-end
+}
+#middle {
+    padding-top: 30px;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+#left {
+    background-color: #4990c5;
+    width: 200%;
+    margin: 10px;
+}
+#left a {
+    color:white;
+    width: 200%;
+}
+article {
+    width: 70%;
+}
+#carousselle {
+    display: flex;
+    justify-content: space-between;
+}
+#carousselle img {
+    width: 31%;
+    border: solid 1px;
+    border-color: black;
+}
+aside {
+    width: 35%;
+}
+h1 {
+    font-size: 34px;
+    color:#ffd90F;
+    margin-bottom: 16px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#right {
+    background-color: #4990c5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+#right img {
+    width: 60%;
+    border: solid 1.5px;
+    border-color: white;
+}
+#right figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+}
+#S-creator {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+footer {
+    background-color:#29539d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+small {
+    color: white;
+}
